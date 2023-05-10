@@ -19,5 +19,5 @@ server.get("/testfailure",(req:any,res:any)=>{
     res.end()
 })
 server.listen(port,()=>{
-    console.log(`server runnning at ${port}`)
+    //console.log(`server runnning at ${port}`)
 })
