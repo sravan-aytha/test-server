@@ -1,5 +1,5 @@
-//const express = require('express')
-import express from 'express'
+const express = require('express')
+// import express from 'express'
 const server = express()
 const port  = 2556
 
