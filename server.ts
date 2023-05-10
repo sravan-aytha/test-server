@@ -1,6 +1,6 @@
-const express = require('express')
-
-const server = new express()
+//const express = require('express')
+import express from 'express'
+const server = express()
 const port  = 2556
 
 server.get("/testsuccess",(req:any,res:any)=>{
